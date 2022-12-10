@@ -15,7 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NgoComponent } from './ngo/ngo.component';
 import { NgoDataComponent } from './ngo-data/ngo-data.component';
 import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
-import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
+// import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
 
 
 
@@ -31,7 +31,7 @@ import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
     NgoComponent,
     NgoDataComponent,
     FundRaiserDataComponent,
-    FundRaiserComponent,
+    // FundRaiserComponent,
   ],
   imports: [
     BrowserModule,

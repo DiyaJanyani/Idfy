@@ -8,7 +8,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { NgoComponent } from './ngo/ngo.component';
 import { NgoDataComponent } from './ngo-data/ngo-data.component';
-import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
+// import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
 import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
 
 
@@ -31,9 +31,9 @@ const routes:Routes=[
   {
     path:"ngo",component:NgoComponent
   },
-  {
-    path:"fundRaiser",component:FundRaiserComponent
-  },
+  // {
+  //   path:"fundRaiser",component:FundRaiserComponent
+  // },
   {
     path:"",redirectTo:"home",pathMatch:"full"
   },
