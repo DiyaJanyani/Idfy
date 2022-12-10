@@ -12,9 +12,9 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgoComponent } from './ngo/ngo.component';
-import { NgoDataComponent } from './ngo-data/ngo-data.component';
-import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
+// import { NgoComponent } from './ngo/ngo.component';
+// import { NgoDataComponent } from './ngo-data/ngo-data.component';
+// import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
 // import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
 
 
@@ -28,9 +28,9 @@ import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.com
     ServicesComponent,
     GalleryComponent,
     ContactusComponent,
-    NgoComponent,
-    NgoDataComponent,
-    FundRaiserDataComponent,
+    // NgoComponent,
+    // NgoDataComponent,
+    // FundRaiserDataComponent,
     // FundRaiserComponent,
   ],
   imports: [

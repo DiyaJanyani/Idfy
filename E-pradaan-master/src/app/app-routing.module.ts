@@ -6,10 +6,10 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { NgoComponent } from './ngo/ngo.component';
-import { NgoDataComponent } from './ngo-data/ngo-data.component';
+// import { NgoComponent } from './ngo/ngo.component';
+// import { NgoDataComponent } from './ngo-data/ngo-data.component';
 // import { FundRaiserComponent } from './fund-raiser/fund-raiser.component';
-import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
+// import { FundRaiserDataComponent } from './fund-raiser-data/fund-raiser-data.component';
 
 
 const routes:Routes=[
@@ -28,21 +28,21 @@ const routes:Routes=[
   {
     path:"contactus",component:ContactusComponent
   },
-  {
-    path:"ngo",component:NgoComponent
-  },
+  // {
+  //   path:"ngo",component:NgoComponent
+  // },
   // {
   //   path:"fundRaiser",component:FundRaiserComponent
   // },
   {
     path:"",redirectTo:"home",pathMatch:"full"
   },
-  {
-    path:"ngo-data",component:NgoDataComponent
-  },
-  {
-    path:"fund-raiser-data",component:FundRaiserDataComponent
-  }
+  // {
+  //   path:"ngo-data",component:NgoDataComponent
+  // },
+  // {
+  //   path:"fund-raiser-data",component:FundRaiserDataComponent
+  // }
 ]
 @NgModule({
   declarations: [],
